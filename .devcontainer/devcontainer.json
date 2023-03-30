@@ -1,0 +1,38 @@
+{
+    "name": "Codeinstitute template",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace/template",
+  
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "formulahendry.auto-close-tag",
+          "hookyqr.beautify",
+          "matt-rudge.auto-open-preview-panel",
+          "bierner.markdown-preview-github-styles"
+        ],
+        "settings": {
+          "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/.github": true,
+            "**/.gitp*": true,
+            "**/.vscode": true,
+            "**/core.Microsoft*": true,
+            "**/core.mongo*": true,
+            "**/core.python*": true
+          },
+          "editor.defaultFormatter": "HookyQR.beautify",
+          "python.linting.pycodestyleEnabled": true,
+          "python.terminal.activateEnvironment": false,
+          "workbench.iconTheme": "none"
+        }
+      }
+    },
+  
+    "remoteUser": "codeany"
+  }
